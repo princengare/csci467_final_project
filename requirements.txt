@@ -1,0 +1,22 @@
+# Core ML & NLP dependencies
+torch==2.2.2           # Compatible with macOS and MPS
+transformers==4.38.2   # Stable with accelerate and XLM-R
+accelerate==0.29.3     # Compatible with Trainer from transformers
+datasets==2.16.1       # For Hugging Face Dataset API
+sentencepiece==0.1.99  # Required for XLM-R tokenizer
+
+# ML utilities
+scikit-learn==1.3.2
+numpy==1.25.2
+pandas==2.2.2
+matplotlib==3.8.4
+
+# Data collection and web scraping
+requests==2.32.2
+beautifulsoup4==4.12.3
+lyricsgenius==3.0.1
+tweepy==4.14.0
+ 
+#Speed or progress visualization
+tqdm==4.66.2
+huggingface-hub==0.23.1
